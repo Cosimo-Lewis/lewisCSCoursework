@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CF41FEC3129B8FA59C8D946 /* Pods_lewisCSCourseworkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 111CAC26790752A7502EF5C5 /* Pods_lewisCSCourseworkUITests.framework */; };
 		4885A8292159058D00CBD814 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885A8282159058D00CBD814 /* AppDelegate.swift */; };
 		4885A82B2159058D00CBD814 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885A82A2159058D00CBD814 /* RootViewController.swift */; };
 		4885A82D2159058D00CBD814 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885A82C2159058D00CBD814 /* DataViewController.swift */; };
@@ -19,6 +20,8 @@
 		4885A85B215906C600CBD814 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4885A85A215906C600CBD814 /* GoogleService-Info.plist */; };
 		4885A85C215906C600CBD814 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4885A85A215906C600CBD814 /* GoogleService-Info.plist */; };
 		4885A85D215906C600CBD814 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4885A85A215906C600CBD814 /* GoogleService-Info.plist */; };
+		B606B209FF1624589A7731EB /* Pods_lewisCSCourseworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221A17150DF94633FCA32451 /* Pods_lewisCSCourseworkTests.framework */; };
+		D92D28AFCF0BE55E299A38A5 /* Pods_lewisCSCoursework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071C4ECA18B64B1BBBBAFA2F /* Pods_lewisCSCoursework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		071C4ECA18B64B1BBBBAFA2F /* Pods_lewisCSCoursework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lewisCSCoursework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		111CAC26790752A7502EF5C5 /* Pods_lewisCSCourseworkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lewisCSCourseworkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		221A17150DF94633FCA32451 /* Pods_lewisCSCourseworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lewisCSCourseworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFFF7D05F2B752C51EEEBB2 /* Pods-lewisCSCourseworkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lewisCSCourseworkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lewisCSCourseworkUITests/Pods-lewisCSCourseworkUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4885A8252159058D00CBD814 /* lewisCSCoursework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lewisCSCoursework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4885A8282159058D00CBD814 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4885A82A2159058D00CBD814 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +62,11 @@
 		4885A84C2159058F00CBD814 /* lewisCSCourseworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lewisCSCourseworkUITests.swift; sourceTree = "<group>"; };
 		4885A84E2159058F00CBD814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4885A85A215906C600CBD814 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6F2E33677260440658C54EB4 /* Pods-lewisCSCoursework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lewisCSCoursework.release.xcconfig"; path = "Pods/Target Support Files/Pods-lewisCSCoursework/Pods-lewisCSCoursework.release.xcconfig"; sourceTree = "<group>"; };
+		BFA47139CB155EA45FAEA715 /* Pods-lewisCSCourseworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lewisCSCourseworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lewisCSCourseworkTests/Pods-lewisCSCourseworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8CCA5EF498D8F79ADC78AD4 /* Pods-lewisCSCourseworkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lewisCSCourseworkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lewisCSCourseworkUITests/Pods-lewisCSCourseworkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE1EDD82CADE03DBE4855CCF /* Pods-lewisCSCoursework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lewisCSCoursework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lewisCSCoursework/Pods-lewisCSCoursework.debug.xcconfig"; sourceTree = "<group>"; };
+		F2F3D14A1E431F9F9C6CC54E /* Pods-lewisCSCourseworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lewisCSCourseworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lewisCSCourseworkTests/Pods-lewisCSCourseworkTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D92D28AFCF0BE55E299A38A5 /* Pods_lewisCSCoursework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B606B209FF1624589A7731EB /* Pods_lewisCSCourseworkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +90,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CF41FEC3129B8FA59C8D946 /* Pods_lewisCSCourseworkUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EB7FD2B85097722A4D9206F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				071C4ECA18B64B1BBBBAFA2F /* Pods_lewisCSCoursework.framework */,
+				221A17150DF94633FCA32451 /* Pods_lewisCSCourseworkTests.framework */,
+				111CAC26790752A7502EF5C5 /* Pods_lewisCSCourseworkUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4885A81C2159058D00CBD814 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +114,8 @@
 				4885A8402159058F00CBD814 /* lewisCSCourseworkTests */,
 				4885A84B2159058F00CBD814 /* lewisCSCourseworkUITests */,
 				4885A8262159058D00CBD814 /* Products */,
+				85059A25FF54F8F27B1005A6 /* Pods */,
+				1EB7FD2B85097722A4D9206F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +163,19 @@
 			path = lewisCSCourseworkUITests;
 			sourceTree = "<group>";
 		};
+		85059A25FF54F8F27B1005A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE1EDD82CADE03DBE4855CCF /* Pods-lewisCSCoursework.debug.xcconfig */,
+				6F2E33677260440658C54EB4 /* Pods-lewisCSCoursework.release.xcconfig */,
+				BFA47139CB155EA45FAEA715 /* Pods-lewisCSCourseworkTests.debug.xcconfig */,
+				F2F3D14A1E431F9F9C6CC54E /* Pods-lewisCSCourseworkTests.release.xcconfig */,
+				D8CCA5EF498D8F79ADC78AD4 /* Pods-lewisCSCourseworkUITests.debug.xcconfig */,
+				2EFFF7D05F2B752C51EEEBB2 /* Pods-lewisCSCourseworkUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4885A8512159058F00CBD814 /* Build configuration list for PBXNativeTarget "lewisCSCoursework" */;
 			buildPhases = (
+				42DC723FE2207BCF727AF2A3 /* [CP] Check Pods Manifest.lock */,
 				4885A8212159058D00CBD814 /* Sources */,
 				4885A8222159058D00CBD814 /* Frameworks */,
 				4885A8232159058D00CBD814 /* Resources */,
+				E21804DECF42C6155FE3F193 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4885A8542159058F00CBD814 /* Build configuration list for PBXNativeTarget "lewisCSCourseworkTests" */;
 			buildPhases = (
+				DE214A683504E1F3E413ABC9 /* [CP] Check Pods Manifest.lock */,
 				4885A8392159058F00CBD814 /* Sources */,
 				4885A83A2159058F00CBD814 /* Frameworks */,
 				4885A83B2159058F00CBD814 /* Resources */,
@@ -178,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4885A8572159058F00CBD814 /* Build configuration list for PBXNativeTarget "lewisCSCourseworkUITests" */;
 			buildPhases = (
+				FE817A771F233AE8AEE028B0 /* [CP] Check Pods Manifest.lock */,
 				4885A8442159058F00CBD814 /* Sources */,
 				4885A8452159058F00CBD814 /* Frameworks */,
 				4885A8462159058F00CBD814 /* Resources */,
@@ -264,6 +308,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42DC723FE2207BCF727AF2A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lewisCSCoursework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE214A683504E1F3E413ABC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lewisCSCourseworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E21804DECF42C6155FE3F193 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-lewisCSCoursework/Pods-lewisCSCoursework-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lewisCSCoursework/Pods-lewisCSCoursework-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE817A771F233AE8AEE028B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lewisCSCourseworkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4885A8212159058D00CBD814 /* Sources */ = {
@@ -446,6 +583,7 @@
 		};
 		4885A8522159058F00CBD814 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE1EDD82CADE03DBE4855CCF /* Pods-lewisCSCoursework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,6 +601,7 @@
 		};
 		4885A8532159058F00CBD814 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F2E33677260440658C54EB4 /* Pods-lewisCSCoursework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -480,6 +619,7 @@
 		};
 		4885A8552159058F00CBD814 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFA47139CB155EA45FAEA715 /* Pods-lewisCSCourseworkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -500,6 +640,7 @@
 		};
 		4885A8562159058F00CBD814 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2F3D14A1E431F9F9C6CC54E /* Pods-lewisCSCourseworkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -520,6 +661,7 @@
 		};
 		4885A8582159058F00CBD814 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8CCA5EF498D8F79ADC78AD4 /* Pods-lewisCSCourseworkUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +681,7 @@
 		};
 		4885A8592159058F00CBD814 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EFFF7D05F2B752C51EEEBB2 /* Pods-lewisCSCourseworkUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

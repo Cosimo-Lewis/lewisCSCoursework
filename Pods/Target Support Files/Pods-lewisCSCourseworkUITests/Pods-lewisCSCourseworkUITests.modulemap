@@ -1,0 +1,6 @@
+framework module Pods_lewisCSCourseworkUITests {
+  umbrella header "Pods-lewisCSCourseworkUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
