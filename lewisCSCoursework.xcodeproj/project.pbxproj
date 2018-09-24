@@ -16,6 +16,9 @@
 		4885A8372159058E00CBD814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4885A8352159058E00CBD814 /* LaunchScreen.storyboard */; };
 		4885A8422159058F00CBD814 /* lewisCSCourseworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885A8412159058F00CBD814 /* lewisCSCourseworkTests.swift */; };
 		4885A84D2159058F00CBD814 /* lewisCSCourseworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885A84C2159058F00CBD814 /* lewisCSCourseworkUITests.swift */; };
+		4885A85B215906C600CBD814 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4885A85A215906C600CBD814 /* GoogleService-Info.plist */; };
+		4885A85C215906C600CBD814 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4885A85A215906C600CBD814 /* GoogleService-Info.plist */; };
+		4885A85D215906C600CBD814 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4885A85A215906C600CBD814 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,7 @@
 		4885A8482159058F00CBD814 /* lewisCSCourseworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lewisCSCourseworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4885A84C2159058F00CBD814 /* lewisCSCourseworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lewisCSCourseworkUITests.swift; sourceTree = "<group>"; };
 		4885A84E2159058F00CBD814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4885A85A215906C600CBD814 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 				4885A8332159058E00CBD814 /* Assets.xcassets */,
 				4885A8352159058E00CBD814 /* LaunchScreen.storyboard */,
 				4885A8382159058E00CBD814 /* Info.plist */,
+				4885A85A215906C600CBD814 /* GoogleService-Info.plist */,
 			);
 			path = lewisCSCoursework;
 			sourceTree = "<group>";
@@ -236,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4885A8372159058E00CBD814 /* LaunchScreen.storyboard in Resources */,
+				4885A85B215906C600CBD814 /* GoogleService-Info.plist in Resources */,
 				4885A8342159058E00CBD814 /* Assets.xcassets in Resources */,
 				4885A8322159058D00CBD814 /* Main.storyboard in Resources */,
 			);
@@ -245,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4885A85C215906C600CBD814 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4885A85D215906C600CBD814 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
