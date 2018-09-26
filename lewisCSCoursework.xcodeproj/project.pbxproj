@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0CF41FEC3129B8FA59C8D946 /* Pods_lewisCSCourseworkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 111CAC26790752A7502EF5C5 /* Pods_lewisCSCourseworkUITests.framework */; };
-		4885A8292159058D00CBD814 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885A8282159058D00CBD814 /* AppDelegate.swift */; };
-		4885A82B2159058D00CBD814 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885A82A2159058D00CBD814 /* RootViewController.swift */; };
-		4885A82D2159058D00CBD814 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885A82C2159058D00CBD814 /* DataViewController.swift */; };
-		4885A82F2159058D00CBD814 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885A82E2159058D00CBD814 /* ModelController.swift */; };
+		4815D600215BEB8400CDD470 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4815D5FF215BEB8400CDD470 /* LoginViewController.swift */; };
+		4815D602215BEBE300CDD470 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4815D601215BEBE300CDD470 /* AppDelegate.swift */; };
 		4885A8322159058D00CBD814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4885A8302159058D00CBD814 /* Main.storyboard */; };
 		4885A8342159058E00CBD814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4885A8332159058E00CBD814 /* Assets.xcassets */; };
 		4885A8372159058E00CBD814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4885A8352159058E00CBD814 /* LaunchScreen.storyboard */; };
@@ -46,11 +44,10 @@
 		111CAC26790752A7502EF5C5 /* Pods_lewisCSCourseworkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lewisCSCourseworkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		221A17150DF94633FCA32451 /* Pods_lewisCSCourseworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lewisCSCourseworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EFFF7D05F2B752C51EEEBB2 /* Pods-lewisCSCourseworkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lewisCSCourseworkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lewisCSCourseworkUITests/Pods-lewisCSCourseworkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4815D5FE215BEB8400CDD470 /* lewisCSCoursework-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lewisCSCoursework-Bridging-Header.h"; sourceTree = "<group>"; };
+		4815D5FF215BEB8400CDD470 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4815D601215BEBE300CDD470 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../.Trash/AppDelegate.swift; sourceTree = "<group>"; };
 		4885A8252159058D00CBD814 /* lewisCSCoursework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lewisCSCoursework.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4885A8282159058D00CBD814 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4885A82A2159058D00CBD814 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		4885A82C2159058D00CBD814 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		4885A82E2159058D00CBD814 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		4885A8312159058D00CBD814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4885A8332159058E00CBD814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4885A8362159058E00CBD814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -132,15 +129,14 @@
 		4885A8272159058D00CBD814 /* lewisCSCoursework */ = {
 			isa = PBXGroup;
 			children = (
-				4885A8282159058D00CBD814 /* AppDelegate.swift */,
-				4885A82A2159058D00CBD814 /* RootViewController.swift */,
-				4885A82C2159058D00CBD814 /* DataViewController.swift */,
-				4885A82E2159058D00CBD814 /* ModelController.swift */,
 				4885A8302159058D00CBD814 /* Main.storyboard */,
+				4815D5FF215BEB8400CDD470 /* LoginViewController.swift */,
+				4815D601215BEBE300CDD470 /* AppDelegate.swift */,
 				4885A8332159058E00CBD814 /* Assets.xcassets */,
 				4885A8352159058E00CBD814 /* LaunchScreen.storyboard */,
 				4885A8382159058E00CBD814 /* Info.plist */,
 				4885A85A215906C600CBD814 /* GoogleService-Info.plist */,
+				4815D5FE215BEB8400CDD470 /* lewisCSCoursework-Bridging-Header.h */,
 			);
 			path = lewisCSCoursework;
 			sourceTree = "<group>";
@@ -248,6 +244,7 @@
 				TargetAttributes = {
 					4885A8242159058D00CBD814 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					4885A83C2159058F00CBD814 = {
 						CreatedOnToolsVersion = 10.0;
@@ -363,14 +360,20 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-lewisCSCoursework/Pods-lewisCSCoursework-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/HelloTrello/HelloTrello.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HelloTrello.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,10 +410,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4885A82B2159058D00CBD814 /* RootViewController.swift in Sources */,
-				4885A82F2159058D00CBD814 /* ModelController.swift in Sources */,
-				4885A82D2159058D00CBD814 /* DataViewController.swift in Sources */,
-				4885A8292159058D00CBD814 /* AppDelegate.swift in Sources */,
+				4815D602215BEBE300CDD470 /* AppDelegate.swift in Sources */,
+				4815D600215BEB8400CDD470 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +587,7 @@
 			baseConfigurationReference = DE1EDD82CADE03DBE4855CCF /* Pods-lewisCSCoursework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = lewisCSCoursework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -594,6 +596,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Lewis.lewisCSCoursework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "lewisCSCoursework/lewisCSCoursework-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -604,6 +608,7 @@
 			baseConfigurationReference = 6F2E33677260440658C54EB4 /* Pods-lewisCSCoursework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = lewisCSCoursework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -612,6 +617,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Lewis.lewisCSCoursework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "lewisCSCoursework/lewisCSCoursework-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

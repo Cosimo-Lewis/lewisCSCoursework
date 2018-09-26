@@ -1,0 +1,6 @@
+framework module HelloTrello {
+  umbrella header "HelloTrello-umbrella.h"
+
+  export *
+  module * { export * }
+}
