@@ -53,6 +53,7 @@ PODS:
   - nanopb/encode (0.3.8)
 
 DEPENDENCIES:
+  - Alamofire
   - Firebase/Core
   - HelloTrello
 
@@ -81,6 +82,6 @@ SPEC CHECKSUMS:
   HelloTrello: 2c192ee8d4d0ddcea1453dc7f3aee010bc71c127
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
 
-PODFILE CHECKSUM: b86967a7eadb9817000dfafcca72bf5d926382ab
+PODFILE CHECKSUM: aca1b875885c041e6e4918d2384b42a56b428ec0
 
 COCOAPODS: 1.5.3

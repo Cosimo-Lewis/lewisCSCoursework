@@ -8,6 +8,7 @@ target 'lewisCSCoursework' do
   # Pods for lewisCSCoursework
 	pod 'Firebase/Core'
     pod 'HelloTrello'
+    pod 'Alamofire'
 
   target 'lewisCSCourseworkTests' do
     inherit! :search_paths
