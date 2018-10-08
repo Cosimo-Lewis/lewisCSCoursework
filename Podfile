@@ -7,8 +7,12 @@ target 'lewisCSCoursework' do
 
   # Pods for lewisCSCoursework
 	pod 'Firebase/Core'
+    pod 'Firebase/Auth'
+    pod 'Firebase/Firestore'
+    pod 'BDBOAuth1Manager'
     pod 'HelloTrello'
     pod 'Alamofire'
+    pod 'FirebaseUI'
 
   target 'lewisCSCourseworkTests' do
     inherit! :search_paths

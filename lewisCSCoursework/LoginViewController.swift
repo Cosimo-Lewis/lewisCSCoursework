@@ -10,9 +10,15 @@ import UIKit
 import Firebase
 import HelloTrello
 import Alamofire
+import BDBOAuth1Manager
 
 class LoginViewController: UIViewController {
 
+    @IBAction func Authenticate(_ sender: Any) {
+        Auth.auth().createUser(withEmail: <#T##String#>, password: <#T##String#>, completion: <#T##AuthDataResultCallback?##AuthDataResultCallback?##(AuthDataResult?, Error?) -> Void#>)
+    }
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         FirebaseApp.description()
