@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0CF41FEC3129B8FA59C8D946 /* Pods_lewisCSCourseworkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 111CAC26790752A7502EF5C5 /* Pods_lewisCSCourseworkUITests.framework */; };
 		4815D602215BEBE300CDD470 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4815D601215BEBE300CDD470 /* AppDelegate.swift */; };
+		48838305216F4EE3002EEF7A /* UserClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48838304216F4EE3002EEF7A /* UserClass.swift */; };
 		4885A8322159058D00CBD814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4885A8302159058D00CBD814 /* Main.storyboard */; };
 		4885A8342159058E00CBD814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4885A8332159058E00CBD814 /* Assets.xcassets */; };
 		4885A8372159058E00CBD814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4885A8352159058E00CBD814 /* LaunchScreen.storyboard */; };
@@ -46,6 +47,7 @@
 		2EFFF7D05F2B752C51EEEBB2 /* Pods-lewisCSCourseworkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lewisCSCourseworkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lewisCSCourseworkUITests/Pods-lewisCSCourseworkUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4815D5FE215BEB8400CDD470 /* lewisCSCoursework-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lewisCSCoursework-Bridging-Header.h"; sourceTree = "<group>"; };
 		4815D601215BEBE300CDD470 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../.Trash/AppDelegate.swift; sourceTree = "<group>"; };
+		48838304216F4EE3002EEF7A /* UserClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserClass.swift; sourceTree = "<group>"; };
 		4885A8252159058D00CBD814 /* lewisCSCoursework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lewisCSCoursework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4885A8312159058D00CBD814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4885A8332159058E00CBD814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				4885A8302159058D00CBD814 /* Main.storyboard */,
+				48838304216F4EE3002EEF7A /* UserClass.swift */,
 				489C7DD3216B81AE009F832C /* ViewController.swift */,
 				4815D601215BEBE300CDD470 /* AppDelegate.swift */,
 				4885A8332159058E00CBD814 /* Assets.xcassets */,
@@ -486,6 +489,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				489C7DD4216B81AE009F832C /* ViewController.swift in Sources */,
+				48838305216F4EE3002EEF7A /* UserClass.swift in Sources */,
 				4815D602215BEBE300CDD470 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,9 +7,48 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
+import FirebaseFirestore
+import Alamofire
+import BDBOAuth1Manager
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var EmailField: UITextField!
+    @IBOutlet weak var PasswordField: UITextField!
+    
+    
+    @IBAction func AuthenticateUser(_ sender: Any) {
+        
+        let email = EmailField.text!
+        let password = PasswordField.text!
+        
+        Auth.auth().createUser(withEmail: email, password: password) { (authResult, error) in
+            
+            if error != nil {
+                print(error)
+            }
+            
+            else {
+                print("Success")
+//                self.
+            }
+            
+        }
+    }
+    
+    @IBAction func SignInUser(_ sender: Any) {
+        
+        let email = EmailField.text!
+        let password = PasswordField.text!
+        
+        Auth.auth().signIn(withEmail: email, password: password) { (user, error) in
+            
+        }
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
